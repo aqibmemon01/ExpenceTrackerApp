@@ -1,0 +1,54 @@
+body{
+    /* text-align: center; */
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+}
+.myInput{
+    padding: 10px 0 10px 10px;
+    width: 230px;
+    border-color: 1px solid rgb(189, 189, 189);  
+}
+.myRadio{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.myLabel{
+   /* background-color: green; */
+   font-size: 20px;
+
+}
+button{
+    width: 70%;
+    border: none;
+    padding: 10px 0 10px 0px;
+    margin-top: 20px;
+    background-color: rgb(110, 110, 255);
+    color: white;
+    font-size: 17px;
+}
+
+.mainDiv{
+  /* background-color: yellowgreen; */
+  width: 350px;
+  margin: auto;
+}
+.Exp_Income{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    box-shadow: 2px 0px 10px rgb(160, 160, 160);
+}
+.Exp_Income > div {
+    margin-right: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+.balanceAmount{
+    margin-top: -10px;
+}
